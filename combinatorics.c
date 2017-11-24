@@ -1,4 +1,4 @@
-int extern_count = 0;
+int extern_n = 0;
 
 int factorial(int n) {
 	if (n == 0) return 1;
