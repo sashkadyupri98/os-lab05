@@ -16,6 +16,6 @@ int main() {
 		printf("C(%d,%d)=%d\n", n, k, C(n, k));
 	} while (n != 0 || k != 0);
 
-	printf("You tried %d times\n");
+	printf("You tried %d times\n", local_count);
 	return 0;
 }
